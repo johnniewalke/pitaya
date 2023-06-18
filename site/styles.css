@@ -73,7 +73,7 @@ main {
     height: 200px;
     object-fit: cover;
     border-radius: 50%;
-    margin: 10px;
+    margin: 10px 10px 10px 0px;
     animation: moveImage 3s infinite alternate;
 }
 
@@ -92,19 +92,19 @@ main {
     font-weight: bold;
     padding: 10px;
     text-align: center;
-    width: 250px;
+    width: 200px;
 }
 
 .tipos_pitaya th:first-child {
-    background-color: #FF80AB;
+    background-color: #E2619A;
 }
 
 .tipos_pitaya th:nth-child(2) {
-    background-color: #FF0000;
+    background-color: #91010B;
 }
 
 .tipos_pitaya th:last-child {
-    background-color: #FFFF00;
+    background-color: #F7AD00;
 }
 
 
