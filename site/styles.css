@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+.main {
+    padding: 20px;
+}
+
+.section-light {
+    background-color: #f5f5f5;
+    padding: 50px;
+    text-align: center;
+}
+
+.section-light h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.pitaya-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.move-image {
+    animation: moveImage 5s infinite;
+}
+
+@keyframes moveImage {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(50px, 50px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+.section-dark {
+    background-color: #222;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.section-dark h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.pitaya-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.pitaya-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.pitaya-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.pitaya-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.pitaya-card p {
+    margin-bottom: 20px;
+}
+
+.pitaya-card a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
