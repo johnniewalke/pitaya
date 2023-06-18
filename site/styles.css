@@ -195,3 +195,24 @@ footer p {
     border-top: none;
   }
   
+  .lista {
+    font-family: Arial, sans-serif;
+  }
+  
+  .item {
+    cursor: pointer;
+    padding: 5px;
+    background-color: #7c7878;
+    margin-bottom: 5px;
+    border: none;
+    outline: none;
+  }
+  
+  .info {
+    display: none;
+    background-color: #888888;
+    padding: 10px;
+  }
+  
+  
+  

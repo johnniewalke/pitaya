@@ -31,17 +31,15 @@ function moveImages() {
 moveImages();
 
 // Função botão para abrir informações
-// Função botão para abrir informações
-const beneficiosItens = document.querySelectorAll('.beneficio-item');
+function toggleInfo(index) {
+  var infoElement = document.getElementById("info" + index);
+  var displayValue = window.getComputedStyle(infoElement).getPropertyValue("display");
 
-beneficiosItens.forEach((item) => {
-  item.addEventListener('click', () => {
-    const descricao = item.querySelector('.beneficio-descricao');
-    
-    if (descricao.style.display === 'block') {
-      descricao.style.display = 'none';
-    } else {
-      descricao.style.display = 'block';
-    }
-  });
-});
+  if (displayValue === "none") {
+    infoElement.style.display = "block";
+  } else {
+    infoElement.style.display = "none";
+  }
+}
+
+

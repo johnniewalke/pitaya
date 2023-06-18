@@ -34,57 +34,83 @@
         </section>
 
         <section class="section-dark">
-            <h2>Benefícios da Pitaya</h2>
-            <div class="pitaya-images_beneficios">
-                <img src="img/beneficio_1.jpeg" alt="Benefício 1" class="move-image">
-                <img src="img/beneficio_2.jpg" alt="Benefício 2" class="move-image">
-                <img src="img/beneficio_3.jpg" alt="Benefício 3" class="move-image">
-            </div>
-            <div class=".beneficio-container">
-                <h2>Benefícios da Pitaya</h2>
-                <ul class="beneficios-lista">
-                    <li class="beneficio-item">
-                        <h3 class="beneficio-titulo">Rica em antioxidantes</h3>
-                        <p class="beneficio-descricao">A pitaya contém antioxidantes que ajudam a combater os danos causados pelos radicais livres no organismo.</p>
-                    </li>
-                    <li class="beneficio-item">
-                        <h3 class="beneficio-titulo">Fortalece o sistema imunológico</h3>
-                        <p class="beneficio-descricao">Os nutrientes presentes na pitaya contribuem para fortalecer o sistema imunológico, ajudando a prevenir doenças.</p>
-                    </li>
-                    <li class="beneficio-item">
-                        <h3 class="beneficio-titulo">Promove a saúde digestiva</h3>
-                        <p class="beneficio-descricao">As fibras presentes na pitaya auxiliam na digestão e ajudam a manter um sistema digestivo saudável.</p>
-                    </li>
-                    <li class="beneficio-item">
-                        <h3 class="beneficio-titulo">Auxilia no controle do açúcar no sangue</h3>
-                        <p class="beneficio-descricao">A pitaya possui baixo índice glicêmico, o que ajuda a regular os níveis de açúcar no sangue.</p>
-                    </li>
-                    <li class="beneficio-item">
-                        <h3 class="beneficio-titulo">Contribui para a saúde cardiovascular</h3>
-                        <p class="beneficio-descricao">Os antioxidantes e as fibras presentes na pitaya ajudam a manter o coração saudável e reduzem o risco de doenças cardíacas.</p>
-                    </li>
-                    <li class="beneficio-item">
-                        <h3 class="beneficio-titulo">Melhora a saúde da pele</h3>
-                        <p class="beneficio-descricao">Os nutrientes e antioxidantes da pitaya contribuem para uma pele mais saudável e radiante.</p>
-                    </li>
-                    <li class="beneficio-item">
-                        <h3 class="beneficio-titulo">Auxilia na perda de peso</h3>
-                        <p class="beneficio-descricao">A pitaya é uma fruta de baixa caloria e rica em fibras, o que a torna uma aliada na perda de peso e na sensação de saciedade.</p>
-                    </li>
-                    <li class="beneficio-item">
-                        <h3 class="beneficio-titulo">Estimula o bom funcionamento intestinal</h3>
-                        <p class="beneficio-descricao">As fibras presentes na pitaya ajudam a regular o trânsito intestinal, prevenindo a constipação.</p>
-                    </li>
-                    <li class="beneficio-item">
-                        <h3 class="beneficio-titulo">Propriedades anti-inflamatórias</h3>
-                        <p class="beneficio-descricao">A pitaya possui compostos que têm propriedades anti-inflamatórias, auxiliando na redução de inflamações no organismo.</p>
-                    </li>
-                    <li class="beneficio-item">
-                        <h3 class="beneficio-titulo">Promove a hidratação</h3>
-                        <p class="beneficio-descricao">A pitaya é composta por uma alta porcentagem de água, o que a torna uma ótima opção para manter o corpo hidratado.</p>
-                    </li>
+            <div class="lista">
+                <ul>
+                  <li>
+                    <button class="item" onclick="toggleInfo(0)"><h3 class="beneficio-titulo">Rica em antioxidantes</h3></button>
+                    <div class="info" id="info0">
+                      
+                      <p class="descricao">A pitaya contém antioxidantes que ajudam a combater os danos causados pelos radicais livres no organismo.</p>
+                    </div>
+                  </li>
+                  <li>
+                    <button class="item" onclick="toggleInfo(1)"></button>
+                    <div class="info" id="info1">
+                      <h3 class="beneficio-titulo">Fortalece o sistema imunológico</h3>
+                      <p class="descricao">Os nutrientes presentes na pitaya contribuem para fortalecer o sistema imunológico, ajudando a prevenir doenças.</p>
+                    </div>
+                  </li>
+                  <li>
+                    <button class="item" onclick="toggleInfo(2)"></button>
+                    <div class="info" id="info2">
+                      <h3 class="beneficio-titulo">Promove a saúde digestiva</h3>
+                      <p class="descricao">As fibras presentes na pitaya auxiliam na digestão e ajudam a manter um sistema digestivo saudável.</p>
+                    </div>
+                  </li>
+                  <li>
+                    <button class="item" onclick="toggleInfo(3)"></button>
+                    <div class="info" id="info3">
+                      <h3 class="beneficio-titulo">Auxilia no controle do açúcar no sangue</h3>
+                      <p class="descricao">A pitaya possui baixo índice glicêmico, o que ajuda a regular os níveis de açúcar no sangue.</p>
+                    </div>
+                  </li>
+                  <li>
+                    <button class="item" onclick="toggleInfo(4)"></button>
+                    <div class="info" id="info4">
+                      <h3 class="beneficio-titulo">Contribui para a saúde cardiovascular</h3>
+                      <p class="descricao">Os antioxidantes e as fibras presentes na pitaya ajudam a manter o coração saudável e reduzem o risco de doenças cardíacas.</p>
+                    </div>
+                  </li>
+                  <li>
+                    <button class="item" onclick="toggleInfo(5)"></button>
+                    <div class="info" id="info5">
+                      <h3 class="beneficio-titulo">Melhora a saúde da pele</h3>
+                      <p class="descricao">Os nutrientes e antioxidantes da pitaya contribuem para uma pele mais saudável e radiante.</p>
+                    </div>
+                  </li>
+                  <li>
+                    <button class="item" onclick="toggleInfo(6)"></button>
+                    <div class="info" id="info6">
+                      <h3 class="beneficio-titulo">Auxilia na perda de peso</h3>
+                      <p class="descricao">A pitaya é uma fruta de baixa caloria e rica em fibras, o que a torna uma aliada na perda de peso e na sensação de saciedade.</p>
+                    </div>
+                  </li>
+                  <li>
+                    <button class="item" onclick="toggleInfo(7)"></button>
+                    <div class="info" id="info7">
+                      <h3 class="beneficio-titulo">Estimula o bom funcionamento intestinal</h3>
+                      <p class="descricao">As fibras presentes na pitaya ajudam a regular o trânsito intestinal, prevenindo a constipação.</p>
+                    </div>
+                  </li>
+                  <li>
+                    <button class="item" onclick="toggleInfo(8)"></button>
+                    <div class="info" id="info8">
+                      <h3 class="beneficio-titulo">Propriedades anti-inflamatórias</h3>
+                      <p class="descricao">A pitaya possui compostos que têm propriedades anti-inflamatórias, auxiliando na redução de inflamações no organismo.</p>
+                    </div>
+                  </li>
+                  <li>
+                    <button class="item" onclick="toggleInfo(9)"></button>
+                    <div class="info" id="info9">
+                      <h3 class="beneficio-titulo">Promove a hidratação</h3>
+                      <p class="descricao">A pitaya é composta por uma alta porcentagem de água, o que a torna uma ótima opção para manter o corpo hidratado.</p>
+                    </div>
+                  </li>
                 </ul>
             </div>
+              
+              
+
             
         </section>
 
