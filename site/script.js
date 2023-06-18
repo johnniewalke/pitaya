@@ -1,4 +1,4 @@
-// Script.js
+// script.js
 
 // Movimento de luzes coloridas
 const lights = document.querySelector('.lights');
