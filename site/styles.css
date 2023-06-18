@@ -89,7 +89,6 @@ main {
     object-fit: cover;
     border-radius: 50%;
     margin: 10px 10px 10px 0px;
-    animation: moveImage 6s infinite alternate;
 }
 
 .tipos_pitaya table {
@@ -179,6 +178,10 @@ footer p {
     font-family: Arial, sans-serif;
 }
 
+.lista li {
+    list-style-type: none;
+}
+
 .item {
     cursor: pointer;
     padding: 5px;
@@ -186,10 +189,12 @@ footer p {
     margin-bottom: 5px;
     border-radius: 40px;
     outline: none;
+    width: 380px;
 }
 
 .info {
     display: none;
     background-color: #888888;
     padding: 10px;
+    width: 380px;
 }

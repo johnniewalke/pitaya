@@ -13,6 +13,7 @@ function moveLights() {
 }
 
 moveLights();
+// luzes botão
 
 // Deslocamento de imagens
 const images = document.querySelectorAll('.move-image');
