@@ -175,44 +175,21 @@ footer p {
     }
 }
 
-.beneficio-item {
-    cursor: pointer;
-  }
-  
-  .beneficio-container {
-    position: relative;
-  }
-  
-  .beneficio-descricao {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    padding: 10px;
-    background-color: #FFFFFF;
-    border: 1px solid #CCCCCC;
-    border-top: none;
-  }
-  
-  .lista {
+.lista {
     font-family: Arial, sans-serif;
-  }
-  
-  .item {
+}
+
+.item {
     cursor: pointer;
     padding: 5px;
     background-color: #7c7878;
     margin-bottom: 5px;
-    border: none;
+    border-radius: 40px;
     outline: none;
-  }
-  
-  .info {
+}
+
+.info {
     display: none;
     background-color: #888888;
     padding: 10px;
-  }
-  
-  
-  
+}
