@@ -62,6 +62,12 @@ main {
     align-items: center;
 }
 
+.pitaya-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .pitaya-images img {
     width: 200px;
     height: 200px;
@@ -70,6 +76,37 @@ main {
     margin: 10px;
     animation: moveImage 3s infinite alternate;
 }
+
+.tipos_pitaya {
+    display: flex;
+    justify-content: center;
+
+}
+
+.tipos_pitaya table {
+    
+}
+
+.tipos_pitaya th {
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+}
+
+.tipos_pitaya th:first-child {
+    background-color: #FF80AB;
+}
+
+.tipos_pitaya th:nth-child(2) {
+    background-color: #FF0000;
+}
+
+.tipos_pitaya th:last-child {
+    background-color: #FFFF00;
+}
+
 
 @keyframes moveImage {
     0% {
