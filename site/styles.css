@@ -1,4 +1,23 @@
-/* styles.css */
+@font-face {
+    font-family: 'Amatic_SC';
+    src: url('fonts/Amatic_SC/AmaticSC-Regular.ttf') format('ttf');
+
+    font-family: 'Dancing_Script';
+    src: url('fonts/Dancing_Script/static/DancingScript-Regular.ttf') format('ttf');
+
+    font-family: 'Great_Vibes';
+    src: url('fonts/Great_Vibes/GreatVibes-Regular.ttf') format('ttf');
+
+    font-family: 'Lobster';
+    src: url('fonts/Lobster/Lobster-Regular.ttf') format('ttf');
+
+    font-family: 'Pacifico';
+    src: url('fonts/Pacifico/Pacifico-Regular.ttf') format('ttf');
+
+    font-family: 'Pinyon_Script';
+    src: url('fonts/Pinyon_Script/PinyonScript-Regular.ttf') format('ttf');
+}
+
 
 * {
     margin: 0;
@@ -15,6 +34,7 @@ header {
     color: #FFFFFF;
     padding: 20px;
     text-align: center;
+    font-family: 'Pacifico' ;
 }
 
 header h1 {
@@ -182,6 +202,8 @@ footer p {
     list-style-type: none;
 }
 
+
+
 .item {
     cursor: pointer;
     padding: 5px;
@@ -190,19 +212,8 @@ footer p {
     border-radius: 40px;
     outline: none;
     width: 330px;
-    font-family:  'Emilys Candy', cursive;
+    font-family: 'Pinyon_Script';
 }
-/*    font-family:  'Emilys Candy', cursive;*/
-@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Inter:wght@400;700&display=swap');
-/*font-family: 'Emilys Candy', cursive;
-font-family: 'Inter', sans-serif;*/
-@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Inter:wght@400;700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Inter:wght@400;700&display=swap');
-
-
-
-
 
 
 
