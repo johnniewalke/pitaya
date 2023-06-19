@@ -97,12 +97,6 @@ main {
     animation: moveImage 3s infinite alternate;
 }
 
-.tipos_pitaya {
-    display: flex;
-    justify-content: center;
-
-}
-
 .pitaya-images_beneficios img {
     width: 200px;
     height: 200px;
@@ -111,8 +105,9 @@ main {
     margin: 10px 10px 10px 0px;
 }
 
-.tipos_pitaya table {
-    
+.tipos_pitaya {
+    display: flex;
+    justify-content: center;
 }
 
 .tipos_pitaya th {
@@ -125,14 +120,35 @@ main {
 
 .tipos_pitaya th:first-child {
     background-color: #E2619A;
+    border-radius: 10px;
+}
+
+.tipos_pitaya th:first-child:hover {
+    background-color: #a0436d;
+    box-shadow: black 1px 2px 2px;
+    cursor: pointer;
 }
 
 .tipos_pitaya th:nth-child(2) {
     background-color: #91010B;
+    border-radius: 10px;
+}
+
+.tipos_pitaya th:nth-child(2):hover {
+    background-color: #5e060c;
+    box-shadow: black 1px 2px 2px;
+    cursor: pointer;
 }
 
 .tipos_pitaya th:last-child {
     background-color: #F7AD00;
+    border-radius: 10px;
+}
+
+.tipos_pitaya th:last-child:hover {
+    background-color: #aa7907;
+    box-shadow: black 1px 2px 2px;
+    cursor: pointer;
 }
 
 
@@ -196,6 +212,7 @@ footer p {
 
 .lista {
     font-family: Arial, sans-serif;
+
 }
 
 .lista li {
