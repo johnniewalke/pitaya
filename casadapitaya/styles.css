@@ -47,7 +47,7 @@ main {
 
 .section-light {
     background-color: #FFE0D1;
-    padding: 50px 0px;
+    padding: 50px;
     text-align: center;
 }
 
@@ -66,7 +66,7 @@ main {
 .section-dark {
     background-color: #593F62;
     color: #FFFFFF;
-    padding: 50px 0px;
+    padding: 50px;
     text-align: center;
 }
 
@@ -206,11 +206,12 @@ footer p {
     cursor: pointer;
     padding: 2px;
    /* background-color: #7c7878; */
+    margin-bottom: 15px;
     border-radius: 40px;
     outline: none;
     width: 300px;
     font-family: 'Pinyon_Script';
-    margin: 5px 0px 0px 0px;
+
     position: relative;
     overflow: hidden;
     border: none;
@@ -234,17 +235,21 @@ footer p {
     margin: 5px auto;
 }
 
-@keyframes lightsBackgroundAnimation {
+.item {
+
+  }
+
+  @keyframes lightsBackgroundAnimation {
     0% {
-        background-position: 0% 50%;
+      background-position: 0% 50%;
     }
     50% {
-        background-position: 100% 50%;
+      background-position: 100% 50%;
     }
     100% {
-        background-position: 0% 50%;
+      background-position: 0% 50%;
     }
-}
+  }
 
 
 .descricao {
@@ -258,4 +263,5 @@ footer p {
     height: 248px;
     object-fit: cover;
     border-radius: 10px;
+    margin: 10px 10px 10px 0px;
 }
