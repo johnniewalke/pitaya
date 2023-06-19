@@ -34,11 +34,11 @@ header {
     color: #FFFFFF;
     padding: 20px;
     text-align: center;
-    font-family: 'Pacifico' ;
 }
 
 header h1 {
     font-size: 24px;
+    font-family: 'Amatic_SC';
 }
 
 main {
@@ -202,8 +202,6 @@ footer p {
     list-style-type: none;
 }
 
-
-
 .item {
     cursor: pointer;
     padding: 5px;
@@ -215,14 +213,10 @@ footer p {
     font-family: 'Pinyon_Script';
 }
 
-
-
-
-
-
-
 .item:hover {
     background-color: black;
+    border: white 1px solid;
+    color: white;
 }
 
 .info {
@@ -230,6 +224,7 @@ footer p {
   /*  background-color: #888888; */
     padding: 10px;
     width: 380px;
+    margin: 5px auto;
 }
 
 .item {
@@ -277,3 +272,9 @@ footer p {
       border-color: rgba(0, 0, 255, 0.5);
     }
   }
+
+.descricao {
+    background-color: #9e7aaa;
+    border-radius: 5px;
+    padding: 5px;
+}
