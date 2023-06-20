@@ -41,6 +41,20 @@ header h1 {
     font-family: 'Amatic_SC';
 }
 
+/************BOTÃO LATERAL FIXO************/
+.icon-atendimento {
+    position: fixed;
+    bottom: 55px;
+    right: 10px;
+    z-index: 999;
+}
+
+.icon-atendimento:hover {
+    background-color: rgba(0, 0, 0, 0.521);
+    opacity: 0.7;
+    border-radius: 50%;
+}
+
 main {
     padding: 20px;
 }
@@ -118,14 +132,20 @@ main {
     width: 200px;
 }
 
+.tipos_pitaya th:first-child a, .tipos_pitaya th:nth-child(2) a, .tipos_pitaya th:last-child a {
+    text-decoration: none;
+    color: #fff;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
 .tipos_pitaya th:first-child {
     background-color: #E2619A;
     border-radius: 10px;
+    /*border: black 1px solid;*/
 }
 
 .tipos_pitaya th:first-child:hover {
     background-color: #a0436d;
-    box-shadow: black 1px 2px 2px;
     cursor: pointer;
 }
 
@@ -221,13 +241,13 @@ footer p {
 
 .item {
     cursor: pointer;
-    padding: 2px;
+    padding: 5px 2px;
    /* background-color: #7c7878; */
     border-radius: 40px;
     outline: none;
     width: 300px;
     font-family: 'Pinyon_Script';
-    margin: 5px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
     position: relative;
     overflow: hidden;
     border: none;
