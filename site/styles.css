@@ -146,6 +146,7 @@ main {
 
 .tipos_pitaya th:first-child:hover {
     background-color: #a0436d;
+    box-shadow: black 1px 2px 2px;
     cursor: pointer;
 }
 
