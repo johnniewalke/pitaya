@@ -306,3 +306,15 @@ footer p {
     flex-direction: row;
     justify-content: space-between;
 }
+
+.mercado_livre:hover{
+    background-color: #FFD100;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.shopee:hover{
+    background-color: #eca496;
+    border-radius: 10px;
+    padding: 5px;
+}
