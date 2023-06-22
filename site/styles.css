@@ -297,3 +297,12 @@ footer p {
     object-fit: cover;
     border-radius: 10px;
 }
+
+.e-commerce {
+    height: 80px;
+    width: 500px;
+    margin: 5px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
