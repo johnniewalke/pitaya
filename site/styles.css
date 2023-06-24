@@ -51,6 +51,22 @@ p {
     color: #91010B;
 }
 
+.colherTexto {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f45b68a4;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.colherTexto p strong {
+    color: #91010B;
+}
+
+.section-light>.colherTexto>h2 {
+    color: #91010B;
+}
+
 @media (max-width: 768px) {
     .plantandoTexto {
         padding: 20px;
