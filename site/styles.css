@@ -47,6 +47,10 @@ p {
     padding: 30px;
 }
 
+.plantandoTexto p strong {
+    color: #91010B;
+}
+
 @media (max-width: 768px) {
     .plantandoTexto {
         padding: 20px;
