@@ -112,6 +112,12 @@ main {
     align-items: center;
 }
 
+.pitaya-images_como_plantar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .section-dark {
     background-color: #593F62;
     color: #FFFFFF;
@@ -152,6 +158,22 @@ main {
     object-fit: cover;
     border-radius: 50%;
     margin: 10px 10px 10px 0px;
+}
+
+.pitaya-images_produtores img {
+    width: 330px;
+    height: 248px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.pitaya-images_como_plantar img{
+    width: 330px;
+    height: 248px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 .tipos_pitaya {
@@ -326,12 +348,7 @@ footer p {
     padding: 5px;
 }
 
-.pitaya-images_produtores img {
-    width: 330px;
-    height: 248px;
-    object-fit: cover;
-    border-radius: 10px;
-}
+
 
 .e-commerce {
     height: 80px;
