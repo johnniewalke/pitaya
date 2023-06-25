@@ -184,7 +184,7 @@ main {
 
 }
 
-.pitaya-images_como_plantar img, .plantandoTexto img{
+.pitaya-images_como_plantar img, .plantandoTexto img, .colherTexto img{
     width: 330px;
     height: 248px;
     object-fit: cover;
